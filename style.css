@@ -1,0 +1,778 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'playfair display';
+    src: url(font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+/* header sections */
+.section1 {
+    color: (255, 255, 255);
+    padding: 20px 0px;
+    font-family: 'playfair display', serif;
+}
+
+.sec1box {
+    justify-content: space-between;
+}
+
+.sec1text1>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #797979;
+    font-size: 15x;
+    padding: 10px;
+    width: 200px;
+}
+
+.sec1text1>img {
+    object-fit: contain;
+}
+
+.sec1text2>i {
+    color: #797979;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 3;
+}
+/* navbar sections */
+
+.section2 {
+    background-color: #ffffff;
+}
+
+.navbar {
+    height: 92px;
+    width: 100%;
+    margin: 20px 0px 0px;
+    border-radius: 5px;
+
+}
+
+.navlink {
+    width: 950px;
+    height: 52px;
+    text-align: right;
+    padding: 15px 0px 0px;
+}
+
+.navlink>a {
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #131230;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+}
+
+#icons {
+    color: #005eff;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: 50px;
+    height: 44px;
+    margin: 0px 10px 0px 10px;
+}
+
+.navlink>a:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+
+}
+
+#icons:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+/* Making Health section  */
+
+.section3 {
+    background-image: url(img/home-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 10px 200px 0px;
+}
+
+.sec3text>h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.sec3text>p {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'open sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(121, 121, 121);
+    margin: 20px 0px;
+}
+
+.sec3button1 {
+    height: 60px;
+    width: 250px;
+    color: #ffffff;
+    background-color: rgb(0, 81, 210);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin: 10px 20px;
+}
+
+.sec3button2 {
+    height: 60px;
+    width: 200px;
+    color: #000000;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid rgb(0, 81, 210);
+    margin: 10px 20px;
+
+}
+
+.sec3button2:hover {
+    color: #ffffff;
+    background-color: rgb(0, 81, 210);
+    transition: 0.5s ease-out;
+}
+
+.sec3button1:hover {
+    color: rgb(0, 81, 210);
+    background-color: transparent;
+    border: 1px solid rgb(0, 81, 210);
+    transition: 0.5s ease-out;
+
+}
+
+
+.sec1text2>i:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+
+}
+
+.sec1text1>a:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+
+}
+ /* Primary Care section   */
+
+.section4 {
+    background-image: url(img/pattern_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.sec4textbox {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sec4text {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 200px;
+}
+
+.sec4icons {
+    color: rgb(0, 81, 210);
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#sec4h>p {
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+    color: rgb(121, 121, 121);
+    text-transform: capitalize;
+}
+
+#sec4h>h4 {
+    font-size: 20px;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    padding: 5px;
+}
+ /* Health Service section */
+
+.section5 {
+    background-color: #ffff;
+    padding: 100px 0px;
+}
+
+.sec5text3 {
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+}
+
+.sec5textbox1,
+.sec5textbox {
+    height: 100%;
+    background-color: #FFFFFF;
+    margin: 60px 0px;
+
+}
+
+.card1 {
+    background-color: #FFFFFF;
+    padding: 60px 0px;
+    height: 100%;
+    position: relative;
+    top:  200px;
+}
+
+.card1>h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'playfair display', serif;
+    margin: 25px 0px;
+    text-transform: capitalize;
+
+}
+
+.card1>p {
+    font-family: 'open sans', sans-serif;
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+    margin: 25px 0px;
+    text-transform: capitalize;
+
+}
+
+.card1>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #131230;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+
+.card1>i {
+    color: #000000;
+    background-color: rgb(236, 240, 248);
+    font-size: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+}
+ /* about  section   */
+
+.section6 {
+    background-image: url(img/bg_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.right>h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.right>h5 {
+    font-family: 'open sans', sans-serif;
+    color: blue;
+    font-size: 15px;
+    margin: 25px 0px;
+    text-transform: capitalize;
+}
+
+.right>p {
+    font-family: 'open sans', sans-serif;
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+    margin: 25px 0px;
+    text-transform: capitalize;
+}
+
+.left>img {
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.right>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+
+.sec7text>h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 10px 0px 10px;
+}
+
+.para {
+    font-family: 'open sans', sans-serif;
+    color: rgb(121, 121, 121);
+    font-size: 15px;
+    margin: 25px 0px;
+    text-transform: capitalize;
+}
+
+.card2 {
+    width: 480px;
+    height: 580px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(249, 249, 255);
+}
+ /* Experience Doctors section   */
+
+.section7 {
+    background-color: #ffff;
+    padding: 100px 0px;
+}
+
+.card2>h2 {
+    font-family: 'playfair display', serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ability {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(121, 121, 121);
+
+}
+
+.cardtext {
+    margin: 10px 0px 0px;
+}
+
+#number>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #131230;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+
+.sec7icons>i {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.sec7icons>i:hover {
+    transition: 0.5s ease-out;
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+}
+/* Make An Appointment sections */
+
+.section7p2 {
+    box-shadow: 0px 0px 5px #000000;
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+}
+
+.textsec7>p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'open sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(121, 121, 121);
+    margin: 50px 0px;
+}
+
+.textsec7>h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.inputsec7>h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    font-weight: bolder;
+    color: #000000;
+    margin: 20px 0px;
+}
+
+label>input {
+    height: 50px;
+    width: 330px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: transparent;
+    padding: 0px 10px;
+    font-family: 'open sans', sans-serif;
+
+}
+
+label {
+    text-transform: capitalize;
+    padding: 0px 10px;
+    font-family: 'open sans', sans-serif;
+    color: #000000;
+    font-weight: bolder;
+
+}
+
+textarea {
+    height: 200px;
+    width: 330px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: transparent;
+    padding: 0px 10px;
+    font-family: 'open sans', sans-serif;
+
+}
+
+.sec7button1 {
+    height: 60px;
+    width: 250px;
+    color: #ffffff;
+    background-color: rgb(0, 81, 210);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+    font-weight: lighter;
+    outline: none;
+    border: none;
+    margin: 10px 20px;
+}
+
+.sec7button1:hover {
+    color: rgb(0, 81, 210);
+    background-color: transparent;
+    border: 1px solid rgb(0, 81, 210);
+    transition: 0.5s ease-out;
+
+}
+/* docter section */
+
+.section8 {
+    background-image: url(img/bg_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+
+.sec8img>img {
+    border-radius: 50%;
+    margin: 20px 0px;
+
+}
+
+.sec8text>p {
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    margin: 20px 0px;
+}
+
+.sec8text>h3 {
+    font-size: 20px;
+    color: rgb(88, 91, 97);
+    font-weight: bold;
+    margin: 20px 0px;
+    font-family: 'playfair display', serif;
+}
+/* number sections  */
+
+.section9 {
+    background: linear-gradient(rgba(92, 106, 255, 0.836), rgba(22, 42, 255, 0.671)), url(img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.sec9text>h6 {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'playfair display', serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.sec9text>h1 {
+    font-size: 65px;
+    color: #FFFFFF;
+    font-family: 'open sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 20px 0px;
+
+}
+
+.sec9text>p {
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: 'open sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 20px 0px;
+
+}
+ /* blog section */
+
+.section10 {
+    background-color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+.sec10text>h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'playfair display', serif;
+    margin: 25px 0px;
+    text-transform: capitalize;
+
+}
+
+.sec10para>p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #000000;
+    font-family: 'open sans', sans-serif;
+    margin: 25px 0px;
+    text-transform: capitalize;
+}
+
+
+.card3 {
+    width: 380px;
+    height: 550px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(249, 249, 255);
+}
+
+.cardimg>img {
+    object-fit: cover;
+}
+
+.card3>a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #131230;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    margin: 10px 0px;
+}
+
+.card3>a:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.linkp {
+    margin: 10px 0px;
+    font-family: 'playfair display', serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.cardlow>i {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.cardlow>p {
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'open sans', sans-serif;
+    text-transform: capitalize;
+    color: #000;
+
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+
+}
+
+.comment:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.cardlow>p:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    font-weight: bold;
+}
+ /* brand section  */
+
+.section11 {
+    background-color: rgb(247, 247, 247);
+    padding: 100px 0px;
+}
+
+.sec11img>img {
+    margin: 10px 0px;
+}
+/* footer section */
+
+.section12 {
+    padding: 100px 0px;
+    background-color: #FFFFFF;
+
+}
+
+.o {
+    text-transform: capitalize;
+    font-size: 17px;
+    width: 260px;
+    height: 40px;
+    padding: 0px 5px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    outline: none;
+    color: #000000;
+}
+
+.i {
+    padding: 0px 10px 0px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 81, 210);
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sec12text1>a {
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(121, 123, 125);
+    margin: 20px 0px;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    font-weight: lighter;
+}
+
+.sec12text1>h4 {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+    font-family: 'playfair display', serif;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.sec12text1>a:hover {
+    color: rgb(0, 81, 210);
+    cursor: pointer;
+    transition: 0.2ms ease-out;
+}
+
+.section13 {
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+}
+
+.sec13link {
+    text-decoration: none;
+    color: rgb(0, 81, 210);
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.sec13text1>p {
+    color: #000000;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.sec13text2>p {
+    color: #000000;
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    text-transform: capitalize;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.sec13icons {
+    color: #000000;
+    font-size: 30px;
+    margin-left: auto;
+    margin: 10px 5px 0px 0px;
+}
+
+.sec13icons:hover {
+    color: rgb(0, 81, 210);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
